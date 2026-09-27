@@ -1,4 +1,4 @@
-shoot_timer += delta_time / 1000; // convert microseconds to ms
+shoot_timer += delta_time / 1000;
 
 show_debug_message("Enemy " + string(id) + " timer: " + string(shoot_timer));
 

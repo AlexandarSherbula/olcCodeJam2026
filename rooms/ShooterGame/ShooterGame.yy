@@ -19,8 +19,8 @@
   ],
   "name":"ShooterGame",
   "parent":{
-    "name":"olcCodeJam2026",
-    "path":"olcCodeJam2026.yyp",
+    "name":"ShooterGame",
+    "path":"folders/ShooterGame.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

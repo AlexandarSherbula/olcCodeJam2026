@@ -16,14 +16,17 @@ var tmB = layer_tilemap_get_id("GroundB");
 var tileA = tilemap_get_at_pixel(tmA, footX, footY);
 var tileB = tilemap_get_at_pixel(tmB, footX, footY);
 
-if (tileA != 0 || tileB != 0) 
+
+if (tileA == 271 || tileB == 271) 
 {
-    vspeed = 0;
-    while (tilemap_get_at_pixel(GroundA, footX, y + sprite_height - 1) != 0 ||
-           tilemap_get_at_pixel(GroundB, footX, y + sprite_height - 1) != 0) 
-	{
-        y -= 1;
-    }
+	vspeed = 0;
+	
+	// Don't move into the ground.
+    // Find the tile row that was hit.
+    var tileY = floor(footY / 16);
+
+    y = tileY * 16 - sprite_height;
+	
 } 
 else 
 {

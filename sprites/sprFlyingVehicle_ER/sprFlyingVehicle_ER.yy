@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"sprBackground_ER",
+  "%Name":"sprFlyingVehicle_ER",
   "bboxMode":0,
-  "bbox_bottom":383,
+  "bbox_bottom":60,
   "bbox_left":0,
-  "bbox_right":815,
+  "bbox_right":95,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"defdad49-36af-4ea6-ab7f-77d134e5760c","name":"defdad49-36af-4ea6-ab7f-77d134e5760c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"330e48ed-3490-4450-9220-9eb22eb90629","name":"330e48ed-3490-4450-9220-9eb22eb90629","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":384,
+  "height":61,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"0f4f8b5d-cbfa-4856-b306-179ccd715214","blendMode":0,"displayName":"default","isLocked":false,"name":"0f4f8b5d-cbfa-4856-b306-179ccd715214","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"417f61ed-0d39-482f-a44f-568052ce9e24","blendMode":0,"displayName":"default","isLocked":false,"name":"417f61ed-0d39-482f-a44f-568052ce9e24","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"sprBackground_ER",
+  "name":"sprFlyingVehicle_ER",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"sprBackground_ER",
+    "%Name":"sprFlyingVehicle_ER",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"sprBackground_ER",
+    "name":"sprFlyingVehicle_ER",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"defdad49-36af-4ea6-ab7f-77d134e5760c","path":"sprites/sprBackground_ER/sprBackground_ER.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e57d7b27-f7c6-4d82-b648-a0f57aa4cadb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"330e48ed-3490-4450-9220-9eb22eb90629","path":"sprites/sprFlyingVehicle_ER/sprFlyingVehicle_ER.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0ad8a412-1852-45df-b706-3b8b8ba53f79","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":816,
+  "width":96,
 }

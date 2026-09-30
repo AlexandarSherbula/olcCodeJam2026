@@ -22,13 +22,13 @@ if (flying_enemy_spawn_timer > 10000)
 layer_x("GroundA", layer_get_x("GroundA") - scroll_speed);
 layer_x("GroundB", layer_get_x("GroundB") - scroll_speed);
 
-// Wrap GroundA
+// layer_x sets and gets local positions, not world position
 if (layer_get_x("GroundA") <= -w) 
 {
     layer_x("GroundA", w);
 }
 
-// Wrap GroundB
+
 if (layer_get_x("GroundB") <= - 2 * w) 
 {
     layer_x("GroundB", 0);

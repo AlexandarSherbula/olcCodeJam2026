@@ -10,7 +10,7 @@ if (keyboard_check_pressed(vk_space))
 if (spawn_timer >= spawn_interval) 
 {
     var rand_x = irandom_range(0, room_width);
-	instance_create_layer(rand_x, -50, "Main", objEnemy_SG);
+	instance_create_layer(rand_x, -50, "Instances", objEnemy_SG);
 
     spawn_timer = 0; 
 }

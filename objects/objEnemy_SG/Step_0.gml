@@ -7,7 +7,7 @@ if (shoot_timer >= spawn_interval)
 	var shoot_x = x + sprite_width / 2.0 - 5.0;
 	var shoot_y = y + sprite_height - 20;
 	
-	instance_create_layer(shoot_x, shoot_y, "Main", objLaser2_SG);
+	instance_create_layer(shoot_x, shoot_y, "Instances", objLaser2_SG);
 
     shoot_timer -= spawn_interval;
 }

@@ -1,1 +1,1 @@
-laser_id = instance_create_layer(objPlayer_SG.x + objPlayer_SG.sprite_width / 2.0 - 5.0, objPlayer_SG.y - 20.0, "Main", objLaser1_SG);
+laser_id = instance_create_layer(objPlayer_SG.x + objPlayer_SG.sprite_width / 2.0 - 5.0, objPlayer_SG.y - 20.0, "Instances", objLaser1_SG);

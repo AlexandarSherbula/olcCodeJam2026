@@ -1,6 +1,9 @@
-y += objGameController_TDRG.scroll_speed;
-
-if (y > 192)
+if (!objGameController_TDRG.gamePaused)
 {
-	y -= cam_height + 32;
+	y += objPlayerCar_TDRG.move_speed;
+
+	if (y > 192)
+	{
+		y -= cam_height + 32;
+	}
 }

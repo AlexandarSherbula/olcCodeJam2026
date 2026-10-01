@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"objGameController_TDRG",
+  "%Name":"objYellowCar_TDRG",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objGameController_TDRG",
+  "name":"objYellowCar_TDRG",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprCarSpriteSheet_TDRG",
+    "path":"sprites/sprCarSpriteSheet_TDRG/sprCarSpriteSheet_TDRG.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
